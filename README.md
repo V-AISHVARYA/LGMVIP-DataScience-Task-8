@@ -16,10 +16,10 @@ The goal of this project is to train a neural network to predict the next word i
 
 ## Installation  
 Install the required packages. It's recommended to set up a virtual environment before installing dependencies:
-pip install virtualenv
-virtualenv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt  
+pip install virtualenv  
+virtualenv venv  
+source venv/bin/activate  # On Windows: venv\Scripts\activate  
+pip install -r requirements.txt    
 
 ## Usage
 Prepare your dataset containing sequences of words for training. Split the data into input sequences (previous words) and target sequences (next words).
